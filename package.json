@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-ts-template",
+  "name": "xstate-global-poc",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,9 +8,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@xstate/react": "^1.6.3",
     "next": "^12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "xstate": "^4.26.1"
   },
   "devDependencies": {
     "@types/node": "16.11.11",
